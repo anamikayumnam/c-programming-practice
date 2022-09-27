@@ -1,7 +1,9 @@
+#include<stdio.h>
 int main (){
-    //Display messge: Enter a charater
-    //store the character in a char variable
-    //print the charater stored in the char variable
+    printf("Enter a character: ");
+    char c;
+    scanf("%c", &c);
+    printf("You enter a character:%C", c);
     
     return 0;
 }
